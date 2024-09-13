@@ -1,0 +1,23 @@
+{
+  "name": "capsule-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "@usecapsule/server-sdk": "^1.24.0",
+    "@usecapsule/viem-v2-integration": "^1.23.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "viem": "^2.21.6"
+  }
+}
